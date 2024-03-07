@@ -4,9 +4,9 @@
   <img src="https://logos-world.net/wp-content/uploads/2021/08/Booking-Logo.png" width="400" height="200" title="Booking_Logo">
 </p>
 
-# Booking.com - Web - Lesson 3 - Page Object Model
+# Booking.com - Web - Lesson 3 - Exercise
 
-This repository contains an example of usage of the Page Object Model, written in NightwatchJS.
+This repository contains the solution to the practical exercise from Lesson 3, written in NightwatchJS.
 
 ## Necessary Tools
 
@@ -25,13 +25,13 @@ To get the project ready to run on your machine, follow the steps below:
 * Copy the following command into the terminal, (remember, you must have [Git](https://git-scm.com/downloads) installed)
 
 ```sh
-git clone https://github.com/Manual-To-Automation-Booking/Lesson-3-POM.git
+git clone https://github.com/Manual-To-Automation-Booking/Lesson-3-Exercise.git
 ```
 
 Move into the directory:
 
 ```sh
-cd Lesson-3-POM
+cd Lesson-3-Exercise
 ```
 
 Type the following commands:
@@ -52,13 +52,13 @@ npm run on-prem
 Run on BrowserStack on a single browser:
 
 ```sh
-npm run single
+npm run bstack-single
 ```
 
 Run on BrowserStack in parallel on 3 browsers:
 
 ```sh
-npm run parallel
+npm run bstack-parallel
 ```
 
 There are obviously many ways to grab this repository and this is just one way. Some of the others are:
